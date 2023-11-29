@@ -1,0 +1,128 @@
+*{
+  padding: 0 !important;
+  margin: 0;
+  box-sizing: border-box;
+}
+.sec-1{
+    background-image: url("./images/mountain.png");
+    height: 100vh;
+    background-size:cover;
+    width: 100%;
+  
+   
+}
+
+.list{
+    text-decoration: underline !important;
+    color: aliceblue;
+    font-style: italic;
+}
+
+
+.section-2 {
+    width: 100%;
+    height: 120vh;
+    background: url('images/sec-2-mountain.png') no-repeat;
+    background-size: cover;
+    display: flex;
+    color: rgb(91, 86, 86);
+    font-family: 'Lato', sans-serif;
+    flex-direction: column;
+    position: relative;
+  }
+  .carousel-indicators button {
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50%;
+  }
+  .carousel1{
+    margin: 0 !important;
+    padding: 20px !important;
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(65, 79, 107, 0.85);
+    bottom: 0;
+    overflow: hidden;
+    height: 300px;
+    
+  }
+  .main-carousel{
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .tab-container {
+    width: 100%;
+    background-color: rgb(65, 79, 107)
+     !important;
+    
+  }
+  
+  .nav-tabs .nav-link {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    left: 100%;
+    color: rgb(165, 169, 179);
+  }
+  .content{
+    height: 90vh;
+    position: relative;
+    background-image: url("./images/tab1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .content-img{
+    position: absolute;
+    top: 100px;
+    left: 17%;
+  }
+  .footer a{
+    color: rgb(124, 126, 127);
+  }
+  .footer{
+    opacity: 0.7;
+  }
+.active{
+  background-color: #b0b4be !important;
+}
+.cell{
+  width: 24%;
+  height: 250px;
+  padding :10px ;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.cell img{
+  width: 100%;
+  height: 200px;
+  margin-left: 0px 10px;
+}
+
+  @media screen and (max-width:750px) {
+    .nav-hid{
+      display: none !important;
+    }
+    .nav-tabs .nav-link {
+      left: 0;
+      border-radius: none !important;
+    }
+    .content-img{
+      left: 10%;
+    }
+    .sec-1{
+      background-size: 100% 100%;
+      height: 70vh;
+      background-repeat: no-repeat;
+    }
+    .cell{
+      width: 100%;
+    }
+    
+  }
+ 
+ 
